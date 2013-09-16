@@ -1,0 +1,138 @@
+* { margin: 0; padding: 0; }
+
+//BUILT-IN STYLES
+
+html {
+	}
+	
+body {
+	padding: 1em;
+	font-family: "Myriad","Trebuchet MS",sans-serif;
+	font-size: 1.1em;
+	line-height: 2;
+	margin: 0 auto;
+	}
+	
+div#page-wrap	{
+		background-color: white;
+		width: 90%;
+		margin: 0px auto;
+	}
+	
+  
+div#topbar	{
+	margin: 30px auto 30px auto; padding: 0;
+	width: 100%;
+	height: 50px;
+	background-color:#bbb;
+	}
+	
+div#linksbar	{
+	font-size: 80%;
+	margin: 0px auto;
+	}
+	
+//center submit buttons
+#ex1 {
+	float: left;
+	}
+#ex2 {
+	float: right;
+	}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+	
+p
+	{
+	margin-bottom: 0.5em;
+	}
+	
+a	{
+	text-decoration: none;
+	color: #0000AA;
+	}
+
+a:hover	{
+	color: red;
+	}
+	
+fieldset	{
+	padding: 1em;
+	width: 90%;
+	font-family: "Myriad","Trebuchet MS",sans-serif;
+	font-size: 1.1em;
+	line-height: 2;
+	border-style: solid;
+	border-color: silver;
+	border-width: 1px;
+	position: relative;
+	color: black;
+	height: auto;
+	margin: 0 auto;
+	}
+	
+.indent	{
+	text-indent: 24px;
+	}
+	
+legend	{
+	font-size: 110%;
+	font-weight: bold;
+	}
+	
+input[type="text"]	{
+	font-size: 90%;
+	text-align: left;
+	width: 80%;
+	
+	}
+	
+/*
+input[type="Submit"]	{
+	font-size: 100%;
+	color: white;
+	background-color: #003300;
+	padding: 3px;
+	}
+	
+input[type="Reset"]	{
+	font-size: 100%;
+	color: white;
+	background-color: #330000;
+	padding: 3px;
+	}
+*/
+	
+table#linkstable	{
+	width: 50%;
+	}
+
+table	{
+	width: 100%;
+	padding: 3px;
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	font-family: "Myriad","Trebuchet MS",sans-serif;
+	font-size: 0.8em;
+	line-height: 1;
+	margin: 0 auto;
+	}
+		
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+
+td	{
+	border: 1px solid #aaa;
+	padding: 6px;
+	}
+
+th	{
+	padding: 6px;
+	}
+
