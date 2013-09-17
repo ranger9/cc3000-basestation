@@ -77,17 +77,6 @@
 //If you need more commands, you can add them to this list using the same syntax --
 //Again, make sure you also include them in sql-setup.php to create database fields
 
-	//the + (unary operator) converts the string to an integer by adding 0 to it
-	//this makes parsing a bit easier on the Arduino end
-
-	/*
-	$json = array(
-	"command_1" => +($row["command_1"]),
-	"command_2" => +($row["command_2"]),
-	"command_3" => +($row["command_3"])
-	);
-	*/
-	
 	$json = array(
 	+($row["command_1"]),
 	+($row["command_2"]),
