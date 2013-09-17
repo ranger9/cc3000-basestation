@@ -251,7 +251,7 @@ void loop(void)
       Serial.println(pollInterval/1000);
   }  //end of what we do if pollFlag == true
   
-  else  //what we do if pollFlag == flase
+  else  //what we do if pollFlag == false
   {
     
     //check to see if it's time to poll
