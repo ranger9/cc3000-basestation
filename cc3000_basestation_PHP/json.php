@@ -27,12 +27,7 @@
 	$row = mysqli_fetch_array($result);
 	$maxRow = $row[0];		
 	
-	//get count of rows so we can determine where to post the data
-	$result = mysqli_query($con,"SELECT * FROM " . $table . " ORDER BY recordID");
-	$numrows = mysqli_num_rows($result);
-	
-
-	//we should be using recordID instead of $numrows in case user deletes some data
+	//if $id > $maxRow, we are adding a new record to the database
 	if ($id > $maxRow)	{	
 
 		//note that the difference between ` and ' is important!
@@ -49,10 +44,7 @@
 	
 	else	{
 
-	//this is what we do if Arduino record count matches database record count
-	//that state indicates that someone has entered a set of commands into the database
-	//so we update the data in the SAME record and then get the commands as json
-	//this part posts the data passed by the GET args collected above			
+	//if $id !> $maxRow, we are updating an existing database row
 	
 		//build a mySQL query string using the data values
 		//and insert them into the current row of the table
