@@ -22,7 +22,7 @@ The CC3000 module works with an Arduino microcontroller. I have written a simple
 
 1) Connect your CC3000 module and Arduino Uno, and run some of the Adafruit-supplied example sketches to make sure the CC3000 works and can connect to your WiFi network.
 
-2) Locate the web host you'll use to host the Base Station PHP files. Make a note of the following information about the web hos:
+2) Locate the web host you'll use to host the Base Station PHP files. Make a note of the following information about the web host:
 	-- Website host name or IP address (example: "yourhost.net" or "192.168.1.100")
 	-- Name of the host's mySQL server
 		(often this will be the same as the host name, but not always.)
